@@ -1,0 +1,189 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: #1d2731;
+  margin: 0;
+  font-family: arial, helvetica, sans-serif, verdana;
+}
+
+header nav ul{
+  list-style: none;
+}
+header nav ul li {
+  float: left;
+}
+header nav ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #ffff;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #000; 
+}
+
+.nav {
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  background-color: #0b3c5d;
+
+}
+
+.nav .active {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #0b3c5d;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.nav a.active {
+  background-color: #1d2731;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.nav input[type=text] {
+  float: right; 
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  .nav a, .nav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .nav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+/*----menu vertical---*/
+.main .article{
+  background: #328cc1;
+  width: 35%; 
+  margin: 10px 20px;
+  float: left;
+  border-radius: 10px;
+}
+.vertical-menu {
+  width: 100%;
+  margin: auto;
+}
+
+.vertical-menu a {
+  background-color: #328cc1;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #d9b310;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.active{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.abajo{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+section article div a{
+	text-align: center;
+}
+.mySlides {
+	display:none;
+	margin:auto; 
+}
+
+
+.slide{
+	background: #fff;
+    width: 60%; 
+    margin: 10px;
+    padding: 20px 0px;
+    float: left;
+    border-radius: 10px;
+}
+ .carta{
+ 	background: #328cc1;
+	width: 19%;
+	height: 455px;
+	margin: 20px 10px;
+	float: left;
+	border-radius: 10px;
+}
+.lofl{
+	margin: 10px 10px 0px 0px;
+	width: 90%;
+	border-radius: 10px;
+}
+h2, p {
+	text-align: justify;
+	padding: 0px 10px;
+
+}
+
+.texto{
+	width: 100%;
+	background: #d9b310;
+	clear: both;
+	padding: 20px;
+	float: left;
+	margin-bottom: 20px;
+}
+.interno{
+	width: 25%;
+	float: left;
+}
+
+footer{
+	background: #0b3c5d;
+	margin: 20px;
+	color: #fff;
+	clear: both;
+	padding: 10px;
+	border-radius: 10px;
+}
+.footer{
+	text-align: center;
+	padding: 20px;
+}

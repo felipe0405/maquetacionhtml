@@ -1,0 +1,163 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f4decb;
+  margin: 0;
+  font-family: arial, helvetica, sans-serif, verdana;
+}
+header, .main, .article{
+  width: 100%;
+  max-width: 95%;
+  margin: auto;
+
+}
+header nav ul{
+  list-style: none;
+}
+header nav ul li {
+  float: left;
+}
+header nav ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #ffff;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #000; 
+}
+.nav {
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  background-color: #49274a;
+
+}
+.nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #572364;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.nav a.active {
+  background-color: #94618e ;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.nav input[type=text] {
+    float: right; 
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  .nav a, .nav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .nav input[type=text] {
+    border: 1px solid #572364;
+  }
+}
+
+/* buscador */
+
+.main{
+	background: #572364 ;
+    width: 95%;
+    height:350px; 
+    margin: 10px 35px;
+    float: left;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-right: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.search{
+	border-radius: 5px;
+	width: 250px;
+	background: #f8eee7;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.contenido{
+	background: #f8eee7;
+	width: 63%;
+	margin: 10px 10px 0px 0px;
+	float: left;
+	border-radius: 10px;  
+}
+
+.morado{
+	width: 50%;
+	margin: 20px 20px 10px 10px;
+	float: left;
+	border-radius: 10px;  
+}
+
+.texto1, h2, p{
+	text-align: justify;
+	padding: 20px;
+	margin: 10px;
+}
+
+aside{
+	background: #f8eee7;
+	width: 30%;
+	margin: 10px 20px;
+	float: left;
+	border-radius: 10px;
+	box-sizing: border-box;  
+}
+.imagenes{
+	width: 20%;
+	margin: 20px;
+	float: left;
+	border-radius: 10px;  
+}
+
+aside p{
+	width: 90%;
+}
+footer{
+	background: #49274a;
+	margin: 20px;
+	color: #fff;
+	clear: both;
+	padding: 10px;
+	border-radius: 10px;
+}
+.footer{
+	text-align: center;
+	padding: 20px;
+}

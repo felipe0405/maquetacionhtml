@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>my website html and css</title>
+		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css"><link rel="stylesheet" type="text/js" href="js/animacion.js">
+		<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+
+	<body>
+		<header>
+			<nav>
+			<div class="nav">
+				<ul>
+					<li><a class="button1" href="../index.html">Home</a></li>
+					<li><a href="../website 1/index.html">website 1</a></li>
+					<li><a href="../website 2/index.html">website 2</a></li>
+					<li><a href="../website 3/index.html">website 3</a></li>
+					<li><a href="../website 4/index.html">website 4</a></li>
+					<li><a href="index.html">website 5</a></li>
+					<li><a href="../website 6/index.html">website 6</a></li>
+					<li><a href="../website 7/index.html">website 7</a></li>
+					<li><a class="button" href="../website 8/index.html">website 8</a></li>
+				    <input type="text" placeholder="Search..">
+				</ul>
+            </div>
+            </nav>
+		</header>
+		<!---menu vertical ---->
+
+     <section class="main">
+     	<article class="article">
+          <div class="vertical-menu">
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#">my vertical menu</a>
+          <a href="#" class="abajo">my vertical menu</a>
+         </div>
+       </article>
+     </section>
+
+     
+     <section class="slide">
+     	<article>
+     
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="imagenes/lol1.jpg" style="width:60%">
+  <img class="mySlides" src="imagenes/lol2.jpg" style="width:60%">
+  <img class="mySlides" src="imagenes/lol3.jpg" style="width:60%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+         </article>
+      </section>
+      	<section class="carta">
+			<center>
+				<div>
+					<img src="imagenes/lol1.jpg" class="lofl">
+				</div>
+				<h2>Title</h2>
+				<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+			</center>
+		</section>
+
+		<section class="carta">
+			<center>
+				<div>
+					<img src="imagenes/lol2.jpg" class="lofl">
+				</div>
+				<h2>Title</h2>
+				<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+			</center>
+		</section>
+
+		<section class="carta">
+			<center>
+				<div>
+					<img src="imagenes/lol3.jpg" class="lofl">
+				</div>
+				<h2>Title</h2>
+				<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+			</center>
+		</section>
+
+		<section class="texto">
+			<article class="interno">
+				<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
+				</p>
+			</article>
+			<article class="interno">
+				<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
+				</p>
+			</article>
+			<article class="interno">
+				<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
+				</p>
+			</article>
+			<article class="interno">
+				<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,1500s,printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
+				</p>
+			</article>
+		</section>
+		<footer>
+			<p class="footer"><i>ANDRES PEÑA</i> - 3132265598</p>
+		</footer>
+	</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>my website html and css</title>
+		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+			<div class="nav">
+				<ul>
+					<li><a class="button1" href="../index.html">Home</a></li>
+					<li><a href="../website 1/index.html">website 1</a></li>
+					<li><a href="../website 2/index.html">website 2</a></li>
+					<li><a href="../website 3/index.html">website 3</a></li>
+					<li><a href="../website 4/index.html">website 4</a></li>
+					<li><a href="../website 5/index.html">website 5</a></li>
+					<li><a href="../website 6/index.html">website 6</a></li>
+					<li><a href="index.html">website 7</a></li>
+					<li><a class="button" href="../website 8/index.html">website 8</a></li>
+					<input type="text" placeholder="Search.." name="Search">
+				  </ul>
+                  </div>      
+            </div>
+            </nav>
+		</header>
+
+        <!-- Slied-->
+		<section class="main">
+			<article class="article">
+            <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="imagenes/morado1.png" class="colores">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="imagenes/morado2.png" class="colores">
+           </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="imagenes/morado3.png" class="colores">
+             </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <img src="imagenes/morado6.png" class="colores">
+           </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 5</div>
+              <img src="imagenes/morado5.png" class="colores">
+           </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>	
+			
+	         </div>
+				<br>
+			
+			<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				  <span class="dot" onclick="currentSlide(4)"></span> 
+				  <span class="dot" onclick="currentSlide(5)"></span>
+			</div>
+			
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				      dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+				</script>	
+			</article>
+		</section>
+
+		<!-- Texto -->
+
+		<section class="texto">
+			<article>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat.</p>
+			</article>
+			<div>
+				<img src="imagenes/morado6.png" class="morado">
+				<img src="imagenes/morado6.png" class="morado">
+				<img src="imagenes/morado6.png" class="morado">
+			</div>
+			<article>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</article>
+		</section>
+
+		<!-- Publicidad -->
+
+		<section class="publicidad">
+			<article>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</article>
+			<div>
+				<img src="imagenes/morado1.png" class="morado1">
+				<img src="imagenes/morado5.png" class="morado1">
+				<img src="imagenes/morado1.png" class="morado1">
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer>
+			<p class="footer"><i>FELIPE PEÑA</i></p>
+		</footer>
+
+	</body>
+
+</html>

@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial, helvetica, sans-serif, verdana;
+ }
+
+body{
+  background: #636b46;
+ }
+ .main, .article, footer{
+	background: #cda34f;
+	width: 95%;
+	margin: 10px 20px;
+	float: left;
+	border-radius: 10px;
+ }
+ header nav {
+	background: #cda34f;
+	overflow: hidden;
+	border-radius: 20px;
+	margin-top: 20px;
+
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li {
+	float: left;
+}
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #ffff;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+	color: #000; 
+}
+
+ .coscu{
+ 	width: 20%;
+ 	margin: 20px;
+ 	border-radius: 10px;
+ 	float: left;
+ }
+ 
+ .texto{
+ 	width: 55%;
+ 	float: left;
+ }
+ 
+ h2, p{
+ 	margin: 15px;
+ 	padding: 10px;
+ }
+
+ .carta{
+ 	background: #373f27;
+	width: 20%;
+	height: 550px;
+	margin: 10px 10px;
+	float: left;
+	border-radius: 10px;
+ }
+ .coscu2{
+ 	margin: 10px 10px 0px 0px;
+ 	width: 90%;
+ 	border-radius: 10px;
+ }
+
+ aside{
+ 	width: 33%;
+ 	margin-top: 10px;
+ 	background: #e9e7da;
+ 	float: left;
+ 	border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+
+ }
+
+ aside h3, p {
+ 	text-align: center;
+ }
+
+ footer{
+ 	background: #cda34f;
+ 	color: #fff;
+ 	clear: both;
+ 	padding: 18px;
+ 	border-radius: 10px;
+ 	text-align: center;
+
+ }
